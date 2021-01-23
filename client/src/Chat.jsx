@@ -61,7 +61,8 @@ const Messages = ({ user }) => {
                 height: 50,
                 width: 50,
                 marginRight: "0.5em",
-                border: "2px solid #e5e6ea",
+                background: "#6ACCBC",
+                border: "2px solid #6ACCBC",
                 borderRadius: 25,
                 textAlign: "center",
                 fontSize: "18pt",
@@ -77,7 +78,7 @@ const Messages = ({ user }) => {
               color: user === messageUser ? "white" : "white",
               padding: "1em",
               borderRadius: "1em",
-              maxWidth: "60%",
+              maxWidth: "50%",
             }}
           >
             {content}
